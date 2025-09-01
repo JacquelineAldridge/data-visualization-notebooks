@@ -1,0 +1,14 @@
+## Archivo de ventas mensuales generado automáticamente
+## Sistema de reportes v2.1 - Enero 2025
+## Contacto: admin@empresa.com para dudas
+mes,producto,ventas,precio_unitario
+enero,A,100,25.50
+febrero,A,120,25.50
+marzo,A,95,26.00
+enero,B,80,15.75
+febrero,B,90,15.75
+marzo,B,85,16.00
+## Datos actualizados hasta marzo
+enero,C,150,30.00
+febrero,C,160,30.00
+marzo,C,140,31.50

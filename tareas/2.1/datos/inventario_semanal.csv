@@ -1,0 +1,11 @@
+REPORTE SEMANAL DE INVENTARIO
+Fecha de generación: 2025-01-15
+Sucursal: Oficina Central  
+====================================
+INICIO DE DATOS
+codigo,nombre,categoria,stock,precio
+P001,Mouse Óptico,Periféricos,250,15.99
+P002,Teclado Mecánico,Periféricos,180,89.99
+P003,Monitor 24 pulgadas,Monitores,75,299.99
+P004,Auriculares,Audio,320,45.50
+P005,Webcam HD,Video,150,65.75
