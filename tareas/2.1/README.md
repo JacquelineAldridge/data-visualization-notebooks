@@ -19,6 +19,7 @@ Usando el dataset de prueba del curso:
 1. Crea una vista con ID, edad, género y estado vital de los pacientes
 2. Encuentra todas las columnas de texto que contengan información sobre el lugar (pista: busca "Place", "Location", "Institute")
 3. Crea una tabla solo con las 5 columnas de síntomas
+4. ¿Cuantas columnas no numéricas hay?
 
 ## 3. Operaciones sobre columnas
 
