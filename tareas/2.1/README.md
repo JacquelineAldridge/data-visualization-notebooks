@@ -2,7 +2,7 @@
 
 ## 1. Carga de archivos
 
-Encontrarás los siguientes archivos en la carpeta `datos/`:
+Dentro de la carpeta `datos/` encontrarás los siguientes archivos:
 
 1. `empleados.csv`
 2. `productos.csv` (pista: piensa en los nombres de columnas)
@@ -10,7 +10,7 @@ Encontrarás los siguientes archivos en la carpeta `datos/`:
 4. `ventas_mensual.csv`
 5. `inventario_semanal.csv`
 
-Intenta cargar todos los archivos CSV usando `pl.read_csv()`. Identifica si hay algún problema con la carga de los datos y soluciónalo.
+Intenta cargar cada uno de ellos usando pl.read_csv(). Identifica si hay algún problema con la carga de los datos y soluciónalo.
 
 ## 2. Selección de columnas
 
