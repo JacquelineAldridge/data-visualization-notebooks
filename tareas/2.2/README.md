@@ -22,7 +22,7 @@ Dataset: `dataset_sample.csv` - Datos de pacientes con trastornos genéticos
    - Valor máximo
    - "No informado"
    - 0
-6. Utilizando el DataFrame generado en el punto 2:
+6. Utilizando el DataFrame generado en el punto 3:
    - Muestra las edades y desorden genético de los 10 pacientes con mayor conteo de glóbulos blancos.
    - Selecciona los cinco pacientes de menor edad que tengan múltiples defectos al nacer y su primer nombre sea Sandra.
    - Ordena los registros por el id del paciente, edad y desorden genético . Se debe ordenar en forma ascendente el id y la edad y de forma descendente el desorden genético Los registros nulos deben quedar al final del DataFrame.
