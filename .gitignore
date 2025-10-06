@@ -1,7 +1,10 @@
 .py[cod]
 __pycache__/
 
+.ruff_cache/
 .venv/
 
-data/
+/data/
 *.local/
+
+.claude/
