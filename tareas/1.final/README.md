@@ -41,7 +41,7 @@ Une verticalmente `dataset_1` y `dataset_2` en un único DataFrame (concatenaci�
   - "Early childhood": 1 - 7 años
   - "Late childhood": 8 años o más
 
-- Integra la información del vecindario de cada paciente a partir del archivo `institute_neighborhoods.csv`. Excluye aquellos registros que no tengan información de vecindario. Deja los valores de los vecindarios en mayúsculas.
+- Integra la información del vecindario de cada paciente a partir del archivo `institute_neighborhoods.csv`. Excluye aquellos registros que no tengan información de vecindario. Deja los valores de todos los vecindarios en mayúsculas.
 
 - Cambia el tipo de dato de todas las columnas que puedan representarse con un tipo más apropiado:
 
