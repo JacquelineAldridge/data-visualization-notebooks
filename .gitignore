@@ -4,7 +4,6 @@ __pycache__/
 .ruff_cache/
 .venv/
 
-/data/dataset.csv
 *.local/
 
 .claude/
