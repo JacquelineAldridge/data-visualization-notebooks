@@ -1,4 +1,7 @@
-# Tarea Final 2: Visualización de Datos con Seaborn y Matplotlib
+---
+title: Tarea final
+publish: true
+---
 
 ## Objetivo
 
@@ -9,12 +12,12 @@ Aplicar los conocimientos adquiridos en la sección de visualización para crear
 Encontrarás el archivo `data/exoplanets.csv` en el repositorio del curso.
 Este dataset cuenta con información sobre avistamientos de exoplanetas, incluyendo características orbitales, físicas y estelares.
 
-El dataset puede incluir múltiples entradas por exoplaneta debido a diferentes métodos de detección o actualizaciones. Para las visualizaciones que requieran datos únicos por exoplaneta (ítems 1 a 4), utiliza únicamente el registro más reciente de cada exoplaneta, identificando el planeta por `planet_name` y ordenando por `last_update_date`.
+El dataset puede incluir múltiples entradas por exoplaneta debido a diferentes métodos de detección o actualizaciones. Para las visualizaciones que requieran datos únicos por exoplaneta, utiliza únicamente el registro más reciente de cada exoplaneta. Para ello, agrupa por `planet_name` y conserva el registro con la `last_update_date` más reciente.
 
 ## Entrega
 
 Entrega un archivo `.ipynb` que contenga el código necesario para realizar las tareas descritas en la sección de detalle y las visualizaciones logradas.
-Asegúrate de que sólo esté el código necesario para resolver las tareas, sin incluir códigos de pruebas o salidas intermedias.
+Asegúrate de que solo esté el código necesario para resolver las tareas, sin incluir códigos de pruebas o salidas intermedias.
 Añade comentarios explicativos en caso de ser necesario.
 No es necesario incluir las figuras exportadas, pero los comandos para guardarlas sí deben estar presentes en el notebook.
 
@@ -22,7 +25,7 @@ No es necesario incluir las figuras exportadas, pero los comandos para guardarla
 
 1. Crea un histograma que muestre la distribución de los radios planetarios (en radios terrestres).
 
-   - Sólo grafica planetas con radio menor a 25 radios terrestres para una mejor visualización.
+   - Solo grafica planetas con radio menor a 25 radios terrestres para una mejor visualización.
    - Añade una curva KDE superpuesta.
    - Incluye líneas verticales de referencia que indiquen el radio de la Tierra y el de Júpiter.
 
@@ -49,7 +52,11 @@ No es necesario incluir las figuras exportadas, pero los comandos para guardarla
    - Superior izquierda: gráfico de barras con el total de exoplanetas por año (solo años presentes en el heatmap). Debe ocupar 1/5 de la altura total.
    - Inferior izquierda: heatmap del total de exoplanetas por año y por instalación de descubrimiento (`discovery_facility`). Minimiza el efecto de outliers en la escala de color.
    - Inferior derecha: barra de color del heatmap en panel independiente, ocupando 1/10 del ancho total.
-   - Superior derecha: eliminar o dejar invisible.
+   - Superior derecha: dejar vacío o invisible.
+
+6. Crea una visualización que muestre la posición de los exoplanetas en coordenadas celestes (ascensión recta `ra_deg` y declinación `dec_deg`). Analiza brevemente: ¿se observan concentraciones en ciertas regiones del cielo? Investiga si alguna de las variables del dataset puede explicar estas concentraciones y añade esta información a la visualización.
+
+7. Define criterios para identificar exoplanetas "potencialmente habitables": temperatura de equilibrio entre 200-350 K y radio entre 0.5-2 radios terrestres. Crea una visualización que permita explorar comparativamente estos planetas con el resto del catálogo, destacando en qué se diferencian (considera propiedades como masa, período orbital, temperatura estelar, etc.). También evalúa la distancia a la que están estos exoplanetas de la Tierra. En las visualizaciones que elijas, incluye el valor referencial de la Tierra y/o Sol cuando sea pertinente.
 
 ## Requisitos generales
 
